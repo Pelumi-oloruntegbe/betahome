@@ -6,7 +6,7 @@ import { useNavigate } from "react-router-dom";
 import "react-toastify/dist/ReactToastify.css";
 import { useForm } from "react-hook-form";
 import { yupResolver } from "@hookform/resolvers/yup";
-import { loginschema } from "../../utils/FormValidatorormValidator";
+import { loginschema } from "../../utils/FormValidator";
 import { ToastContainer, toast } from "react-toastify";
 import logo from "../assets/images/logo.png";
 import axios from "axios";
